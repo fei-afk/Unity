@@ -1,5 +1,5 @@
 
-![image](https://github.com/Kechushou/Unity/blob/master/images/unity.jpg)
+<img src="https://github.com/Kechushou/Unity/blob/master/images/unity.jpg" width="48">
 This repository contains the Games and materials developed while learning Unity
 
 Includes:
