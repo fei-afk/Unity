@@ -62,6 +62,7 @@
     <Compile Include="Assets\_Completed-Assets\Scripts\CompleteCameraController.cs" />
     <Compile Include="Assets\_Completed-Assets\Scripts\CompletePlayerController.cs" />
     <Compile Include="Assets\_Completed-Assets\Scripts\CompleteRotator.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\TutorialInfo.cs" />
     <None Include="Assets\TutorialInfo\Fonts\LICENSE.txt" />
     <Reference Include="UnityEditor.StandardEvents">
