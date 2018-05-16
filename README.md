@@ -6,3 +6,4 @@
 1. Begin (Jimmy Vegas)
 2. Roll a ball game (Official tutorial)
 3. 2D UFO (Official tutorial)
+4. Survival Shooter Game (Official tutorial)
