@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{E9C3B435-79CB-F247-DED3-2B87B6ABFE6C}</ProjectGuid>
+    <ProjectGuid>{A23808EC-17D6-509E-F036-0213C0BADD3A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -96,10 +96,10 @@
     <Compile Include="Assets\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/feiliu/Documents/Programming/Unity/Survival Shooter Gane/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/feiliu/Documents/Programming/Unity/Survival Shooter Game/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/feiliu/Documents/Programming/Unity/Survival Shooter Gane/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/feiliu/Documents/Programming/Unity/Survival Shooter Game/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -389,7 +389,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{B6E39AF1-6757-7B45-29E4-2C90013DE82B}</Project>
+      <Project>{CF2F37B0-34AA-2D75-4038-405D13248961}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>
