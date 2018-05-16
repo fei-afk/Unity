@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio for Mac
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Survival Shooter Gane", "Assembly-CSharp.csproj", "{B6E39AF1-6757-7B45-29E4-2C90013DE82B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Survival Shooter Gane", "Assembly-CSharp-Editor.csproj", "{E9C3B435-79CB-F247-DED3-2B87B6ABFE6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6E39AF1-6757-7B45-29E4-2C90013DE82B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6E39AF1-6757-7B45-29E4-2C90013DE82B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6E39AF1-6757-7B45-29E4-2C90013DE82B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6E39AF1-6757-7B45-29E4-2C90013DE82B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9C3B435-79CB-F247-DED3-2B87B6ABFE6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9C3B435-79CB-F247-DED3-2B87B6ABFE6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9C3B435-79CB-F247-DED3-2B87B6ABFE6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9C3B435-79CB-F247-DED3-2B87B6ABFE6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
