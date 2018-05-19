@@ -355,6 +355,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeBetweenAttacks: 0.5
   attackDamage: 10
+--- !u!114 &5076496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 5076488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b9d14572410594cb85d40eedfb150c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingHealth: 100
+  currentHealth: 0
+  sinkSpeed: 2.5
+  scoreValue: 10
+  deathClip: {fileID: 8300000, guid: 62366b8d2c37a49dca550841c741317f, type: 3}
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -1445,32 +1461,24 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 114646412032099162, guid: 743503cadf1c8f140bbdd1c7d8e83572,
+        type: 2}
+      propertyPath: healthSlider
+      value: 
+      objectReference: {fileID: 1456501180}
+    - target: {fileID: 114646412032099162, guid: 743503cadf1c8f140bbdd1c7d8e83572,
+        type: 2}
+      propertyPath: damageImage
+      value: 
+      objectReference: {fileID: 1679950444}
+    - target: {fileID: 120723433867601262, guid: 743503cadf1c8f140bbdd1c7d8e83572,
+        type: 2}
+      propertyPath: m_Parameters.widthMultiplier
+      value: 0.05
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 743503cadf1c8f140bbdd1c7d8e83572, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1938264683 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1962133587420652, guid: 743503cadf1c8f140bbdd1c7d8e83572,
-    type: 2}
-  m_PrefabInternal: {fileID: 1938264682}
---- !u!114 &1938264684
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1938264683}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 544f2064df03e95419b4a5147c506b08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startingHealth: 100
-  currentHealth: 0
-  healthSlider: {fileID: 1456501180}
-  damageImage: {fileID: 1679950444}
-  deathClip: {fileID: 8300000, guid: d36a393bca4582043982db9089e1694f, type: 3}
-  flashSpeed: 5
-  flashColour: {r: 1, g: 0, b: 0, a: 0.1}
 --- !u!4 &1938264689 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4954708210231056, guid: 743503cadf1c8f140bbdd1c7d8e83572,

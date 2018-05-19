@@ -40,8 +40,8 @@ MonoBehaviour:
     y: 0
     width: 408
     height: 364
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -96,7 +96,7 @@ MonoBehaviour:
   m_MinSize: {x: 640, y: 271}
   m_MaxSize: {x: 18010, y: 10021}
   vertical: 0
-  controlID: 61
+  controlID: 64
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 640, y: 392}
   m_MaxSize: {x: 18010, y: 14042}
   vertical: 1
-  controlID: 83
+  controlID: 86
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -190,8 +190,8 @@ MonoBehaviour:
     y: 0
     width: 554
     height: 948
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -221,7 +221,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 392}
   m_MaxSize: {x: 22012, y: 14042}
   vertical: 0
-  controlID: 146
+  controlID: 153
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -339,6 +339,7 @@ MonoBehaviour:
   m_ViewTransforms:
     m_KeySerializationHelper:
     - {fileID: 1107404161383310766, guid: 175f239df89cc2c4493989026eb8634a, type: 2}
+    - {fileID: 1107752394002301980, guid: 64fd278b139faf442bec1cedaa566cb7, type: 2}
     m_ValueSerializationHelper:
     - e00: 1
       e01: 0
@@ -348,6 +349,22 @@ MonoBehaviour:
       e11: 1
       e12: 0
       e13: -19
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
       e20: 0
       e21: 0
       e22: 1
@@ -396,14 +413,14 @@ MonoBehaviour:
     height: 563
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 100.06696720875026
+  lastFramingTime: 828.368604459975
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.9122007, y: 0.47694468, z: -0.2806685}
+    m_Target: {x: -3.5806394, y: -0.56653774, z: -0.3489479}
     speed: 2
-    m_Value: {x: 0.9122007, y: 0.47694468, z: -0.2806685}
+    m_Value: {x: -3.5806394, y: -0.56653774, z: -0.3489479}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -431,13 +448,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.077974655, y: -0.92067933, z: 0.24325499, w: 0.29512116}
+    m_Target: {x: -0.110440634, y: 0.69617724, z: -0.1097144, w: -0.70078725}
     speed: 2
-    m_Value: {x: 0.07797466, y: -0.9206794, z: 0.243255, w: 0.2951212}
+    m_Value: {x: -0.11044064, y: 0.6961773, z: -0.109714404, w: -0.7007873}
   m_Size:
-    m_Target: 16.794743
+    m_Target: 6.567845
     speed: 2
-    m_Value: 16.794743
+    m_Value: 6.567845
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -486,20 +503,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts/Enemy
+    - Assets/Scripts/Player
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scripts/Enemy
+  - Assets/Scripts/Player
   m_LastFoldersGridSize: 16
   m_LastProjectPath: E:\Fei\Unity\Survival Shooter Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b42e0000
-    m_LastClickedID: 11956
-    m_ExpandedIDs: 000000002c2a0000882c0000ffffff7f
+    scrollPos: {x: 0, y: 46}
+    m_SelectedIDs: 5c2d0000
+    m_LastClickedID: 11612
+    m_ExpandedIDs: 000000002e2a0000582c00008a2c0000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -527,7 +544,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 46430000
     m_LastClickedID: 17222
-    m_ExpandedIDs: 000000002c2a0000882c0000
+    m_ExpandedIDs: 000000002e2a00008a2c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -558,18 +575,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: 464300007e360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: EnemyAttack
-      m_OriginalName: EnemyAttack
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 2060
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 3}
     m_CreateAssetUtility:
@@ -643,9 +660,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ee300000
-    m_LastClickedID: 12526
-    m_ExpandedIDs: f0fbffff00000000cc300000d0300000
+    m_SelectedIDs: f0300000
+    m_LastClickedID: 12528
+    m_ExpandedIDs: d6fbfffff0fbffff00000000d230000006310000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: Player
@@ -656,7 +673,7 @@ MonoBehaviour:
         y: 0
         width: 0
         height: 0
-      m_UserData: -1502
+      m_UserData: 12550
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
