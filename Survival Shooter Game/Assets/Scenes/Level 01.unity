@@ -1634,6 +1634,11 @@ Prefab:
       propertyPath: m_Parameters.widthMultiplier
       value: 0.05
       objectReference: {fileID: 0}
+    - target: {fileID: 82809812356694846, guid: 743503cadf1c8f140bbdd1c7d8e83572,
+        type: 2}
+      propertyPath: m_Volume
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 743503cadf1c8f140bbdd1c7d8e83572, type: 2}
   m_IsPrefabParent: 0
