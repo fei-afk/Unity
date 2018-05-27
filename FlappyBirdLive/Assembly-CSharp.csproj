@@ -59,18 +59,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Flappy Bird Style\Scripts\Bird.cs" />
-    <Compile Include="Assets\Flappy Bird Style\Scripts\Column.cs" />
-    <Compile Include="Assets\Flappy Bird Style\Scripts\ColumnPool.cs" />
-    <Compile Include="Assets\Flappy Bird Style\Scripts\GameControl.cs" />
-    <Compile Include="Assets\Flappy Bird Style\Scripts\RepeatingBackground.cs" />
-    <Compile Include="Assets\Flappy Bird Style\Scripts\ScrollingObject.cs" />
-    <None Include="Assets\Flappy Bird Style\_ReadMe.txt" />
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>E:/Fei/Unity/FlappyBirdLive/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
+    <Compile Include="Assets\Scripts\Bird.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>E:/Fei/Unity/FlappyBirdLive/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>E:/Fei/Unity/FlappyBirdLive/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>E:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
