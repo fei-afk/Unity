@@ -7,3 +7,4 @@
 2. Roll a ball game (Official tutorial)
 3. 2D UFO (Official tutorial)
 4. Survival Shooter Game (Official tutorial)
+5. Flappy Bird Style Game (Official tutorial)
