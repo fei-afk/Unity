@@ -59,9 +59,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\RepeatingBackground.cs" />
     <Compile Include="Assets\Scripts\Bird.cs" />
+    <Compile Include="Assets\Scripts\Column.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\Scripts\RepeatingBackground.cs" />
     <Compile Include="Assets\Scripts\ScrollingObject.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>E:/Fei/Unity/FlappyBirdLive/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
