@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2DGameKit", "Assembly-CSharp.csproj", "{4E51B2A4-5330-B86F-846A-1700BC66CD55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2DGameKit", "Assembly-CSharp-Editor.csproj", "{1764AAB6-09A7-6779-8333-77BDA8BE3921}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E51B2A4-5330-B86F-846A-1700BC66CD55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E51B2A4-5330-B86F-846A-1700BC66CD55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E51B2A4-5330-B86F-846A-1700BC66CD55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E51B2A4-5330-B86F-846A-1700BC66CD55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1764AAB6-09A7-6779-8333-77BDA8BE3921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1764AAB6-09A7-6779-8333-77BDA8BE3921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1764AAB6-09A7-6779-8333-77BDA8BE3921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1764AAB6-09A7-6779-8333-77BDA8BE3921}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
